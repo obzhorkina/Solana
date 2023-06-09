@@ -1,5 +1,5 @@
 /**
- * @name dogaids
+ * @name 666
  * @author Disease#5663
  * @version 1.0.11
  * @description macOS with barely any customization.
@@ -12,15 +12,16 @@
 
 @import url('https://maendisease.github.io/Solana/Solana.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
 
 :root {
-  --accent-hue: 200;
+  --accent-hue: 274;
   --accent-saturation: 100%;
-  --accent-brightness: 25%;
-  --background-accent-hue: 200;
+  --accent-brightness: 81%;
+  --background-accent-hue: 259;
   --background-accent-saturation: 100%;
-  --background-accent-brightness: 50%;
+  --background-accent-brightness: 53%;
   --background-image: initial; /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-position: center;
   --background-image-size: cover;
@@ -32,26 +33,26 @@
   --window-background-image-position: center;
   --window-background-image-size: cover;
   --window-background-image-attachment: fixed;
-  --window-opacity: 30%;
+  --window-opacity: 49%;
   --window-blur: 50;
-  --window-friends-blur: 50;
-  --window-margin: 10;
+  --window-friends-blur: 28;
+  --window-margin: 2;
   --window-margin-left: 0;
-  --window-border-radius: 10px;
+  --window-border-radius: 16px;
   --window-background-lightness: 0;
-  --window-accent-tint-strength: 0%;
+  --window-accent-tint-strength: 50%;
   --chat-bubble: 0;
-  --text-link-hue: 219;
-  --chat-text-brightness: 1;
-  --home-icon: initial;
-  --favorites-icon: initial;
+  --text-link-hue: 283;
+  --chat-text-brightness: 0;
+  --home-icon: url('https://i.imgur.com/QrRzj9j.png');
+  --favorites-icon: url('https://i.imgur.com/7UjAoiM.png');
   --dock-blur: 50; /* Blur intensity of the dock. */
-  --dock-border-radius: 0;
-  --sidebar-width: 225px;
-  --members-width: 225px;
-  --sidebar-text-brightness: 1;
-  --background-floating-blur: 50px;
-  --floating-background-lightness: -0.6;
+  --dock-border-radius: 1;
+  --sidebar-width: 240px;
+  --members-width: 267px;
+  --sidebar-text-brightness: -0.02;
+  --background-floating-blur: 25px;
+  --floating-background-lightness: 0;
   --background-floating-opacity: 1;
   --enable-floating-transparency: 1;
   --custom-font-display: "";
